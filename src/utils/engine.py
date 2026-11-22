@@ -26,18 +26,18 @@ import time as t
 from pygame.time import Clock
 import math
 
-from src.utils.gizmo import TransformGizmo
-from src.utils.gameObject import GameObject
-from src.utils.interactable import Interactable
-from src.utils.boxCollider import BoxCollider
-from src.utils.raycast import screen_to_ray, ray_aabb_intersect
+from utils.gizmo import TransformGizmo
+from utils.gameObject import GameObject
+from utils.interactable import Interactable
+from utils.boxCollider import BoxCollider
+from utils.raycast import screen_to_ray, ray_aabb_intersect
 
-from src.utils.color import Color
-from src.utils.camera import Camera, FlyCamera
-from src.utils.hud import HUD
-from src.utils.scene import Scene
-from src.utils.input import Input
-from src.utils.sky import Sky
+from utils.color import Color
+from utils.camera import Camera, FlyCamera
+from utils.hud import HUD
+from utils.scene import Scene
+from utils.input import Input
+from utils.sky import Sky
 
 
 class Engine:

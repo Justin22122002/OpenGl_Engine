@@ -3,7 +3,7 @@ import math
 import numpy as np
 from numpy.typing import NDArray
 
-from src.utils.vec3 import Vec3
+from utils.vec3 import Vec3
 
 def _mat4_identity() -> NDArray[np.float32]:
     return np.eye(4, dtype=np.float32)

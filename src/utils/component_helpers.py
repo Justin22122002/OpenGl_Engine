@@ -1,12 +1,12 @@
-from src.utils.vec3 import Vec3
-from src.utils.simplematerial import SimpleMaterial
-from src.utils.meshRenderer import MeshRenderer
-from src.utils.color import Color
-from src.utils.mesh import Mesh
-from src.utils.texture import Texture
-from src.utils.boxCollider import BoxCollider
-from src.utils.gameObject import GameObject
-from src.utils.scene import Scene
+from utils.vec3 import Vec3
+from utils.simplematerial import SimpleMaterial
+from utils.meshRenderer import MeshRenderer
+from utils.color import Color
+from utils.mesh import Mesh
+from utils.texture import Texture
+from utils.boxCollider import BoxCollider
+from utils.gameObject import GameObject
+from utils.scene import Scene
 
 def quick_cube(scene: Scene,
                position: Vec3 = None,

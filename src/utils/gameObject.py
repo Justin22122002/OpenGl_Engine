@@ -1,9 +1,9 @@
 import numpy as np
 from numpy.typing import NDArray
 
-from src.utils.component import Component
-from src.utils.renderer import Renderer
-from src.utils.transform import Transform
+from utils.component import Component
+from utils.renderer import Renderer
+from utils.transform import Transform
 
 class GameObject:
     def __init__(self, name: str = "GameObject"):

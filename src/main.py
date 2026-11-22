@@ -1,16 +1,16 @@
-from src.utils.engine import Engine
-from src.utils.meshRenderer import MeshRenderer
-from src.utils.sky import Sky
-from src.utils.text_renderer import TextRenderer
-from src.utils.vec3 import Vec3
-from src.utils.color import Color
-from src.utils.directionalLight import DirectionalLight, SpotLight, PointLight
-from src.utils.camera import FlyCamera
-from src.utils.mesh import Mesh
-from src.utils.texture import Texture
-from src.utils.simplematerial import SimpleMaterial, ComplexMaterial
-from src.utils.interactable import Interactable
-from src.utils.boxCollider import BoxCollider
+from utils.engine import Engine
+from utils.meshRenderer import MeshRenderer
+from utils.sky import Sky
+from utils.text_renderer import TextRenderer
+from utils.vec3 import Vec3
+from utils.color import Color
+from utils.directionalLight import DirectionalLight, SpotLight, PointLight
+from utils.camera import FlyCamera
+from utils.mesh import Mesh
+from utils.texture import Texture
+from utils.simplematerial import SimpleMaterial, ComplexMaterial
+from utils.interactable import Interactable
+from utils.boxCollider import BoxCollider
 
 engine = Engine(800, 600, "My Game")
 scene  = engine.scene

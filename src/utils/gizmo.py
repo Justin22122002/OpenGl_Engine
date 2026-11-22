@@ -19,11 +19,11 @@ from OpenGL.GL import (
 )
 from OpenGL.GL.shaders import compileShader, compileProgram, ShaderProgram
 
-from src.utils.mesh import Mesh
-from src.utils.color import Color
-from src.utils.vec3 import Vec3
-from src.utils.helpers import _mat4_translate, _mat4_rotate_x, _mat4_rotate_z, _mat4_identity
-from src.utils.simplematerial import load_shader_source
+from utils.mesh import Mesh
+from utils.color import Color
+from utils.vec3 import Vec3
+from utils.helpers import _mat4_translate, _mat4_rotate_x, _mat4_rotate_z, _mat4_identity
+from utils.simplematerial import load_shader_source
 
 
 class _GizmoShader:

@@ -32,11 +32,11 @@ from OpenGL.GL.shaders import compileProgram, compileShader, ShaderProgram
 from numpy.typing import NDArray
 from typing_extensions import override
 
-from src.utils.color import Color
-from src.utils.component import Component
-from src.utils.simplematerial import load_shader_source
-from src.utils.renderer import Renderer
-from src.utils.vec3 import Vec3
+from utils.color import Color
+from utils.component import Component
+from utils.simplematerial import load_shader_source
+from utils.renderer import Renderer
+from utils.vec3 import Vec3
 
 
 class PointRenderer(Component, Renderer):

@@ -1,12 +1,12 @@
 import math
-from src.utils.helpers import (
+from utils.helpers import (
     _mat4_rotate_x,
     _mat4_rotate_y,
     _mat4_rotate_z,
     _mat4_translate,
     _mat4_scale
 )
-from src.utils.vec3 import Vec3
+from utils.vec3 import Vec3
 import numpy as np
 
 

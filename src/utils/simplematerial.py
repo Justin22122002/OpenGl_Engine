@@ -6,8 +6,8 @@ import numpy as np
 from numpy.typing import NDArray
 from typing_extensions import override
 
-from src.utils.texture import Texture
-from src.utils.color import Color
+from utils.texture import Texture
+from utils.color import Color
 
 from OpenGL.GL import (
     GL_FALSE,

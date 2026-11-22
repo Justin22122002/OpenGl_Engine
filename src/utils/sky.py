@@ -27,10 +27,10 @@ from OpenGL.GL import (
 )
 from OpenGL.GL.shaders import compileProgram, compileShader, ShaderProgram
 
-from src.utils.color import Color
-from src.utils.directionalLight import DirectionalLight
-from src.utils.vec3 import Vec3
-from src.utils.simplematerial import load_shader_source
+from utils.color import Color
+from utils.directionalLight import DirectionalLight
+from utils.vec3 import Vec3
+from utils.simplematerial import load_shader_source
 
 
 class Sky:

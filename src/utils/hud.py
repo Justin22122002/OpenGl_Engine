@@ -35,7 +35,7 @@ from OpenGL.GL import (
 )
 from OpenGL.GL.shaders import compileProgram, compileShader, ShaderProgram
 
-from src.utils.simplematerial import (load_shader_source)
+from utils.simplematerial import (load_shader_source)
 
 RGBColor  = tuple[int, int, int]
 RGBAColor = tuple[int, int, int, int]

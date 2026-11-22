@@ -3,10 +3,10 @@ from OpenGL.GL import GL_FALSE, GL_TRUE, glDepthMask, glUseProgram
 from numpy.typing import NDArray
 from typing_extensions import override
 
-from src.utils.component import Component
-from src.utils.simplematerial import SimpleMaterial, Material
-from src.utils.mesh import Mesh
-from src.utils.renderer import Renderer
+from utils.component import Component
+from utils.simplematerial import SimpleMaterial, Material
+from utils.mesh import Mesh
+from utils.renderer import Renderer
 
 
 class MeshRenderer(Component, Renderer):

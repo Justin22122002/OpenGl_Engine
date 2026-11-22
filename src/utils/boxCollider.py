@@ -2,8 +2,8 @@ from dataclasses import dataclass, field
 
 from typing_extensions import override
 
-from src.utils.component import Component
-from src.utils.vec3 import Vec3
+from utils.component import Component
+from utils.vec3 import Vec3
 
 
 @dataclass

@@ -3,15 +3,14 @@ from collections.abc import Generator
 import numpy as np
 from numpy.typing import NDArray
 
-from src.utils.color import Color
-from src.utils.gameObject import GameObject
-from src.utils.directionalLight import DirectionalLight, PointLight, SpotLight
-from src.utils.meshRenderer import MeshRenderer
-from src.utils.vec3 import Vec3
-from src.utils.boxCollider import BoxCollider
-from src.utils.shadow_map import ShadowMap
-from src.utils.mesh import Mesh
-from src.utils.renderer import Renderer
+from utils.color import Color
+from utils.gameObject import GameObject
+from utils.directionalLight import DirectionalLight, PointLight, SpotLight
+from utils.meshRenderer import MeshRenderer
+from utils.vec3 import Vec3
+from utils.boxCollider import BoxCollider
+from utils.shadow_map import ShadowMap
+from utils.mesh import Mesh
 
 
 class Scene:

@@ -41,9 +41,9 @@ from OpenGL.GL import (
 )
 from OpenGL.GL.shaders import compileProgram, compileShader
 
-from src.utils.helpers import _mat4_look_at, _mat4_ortho
-from src.utils.vec3 import Vec3
-from src.utils.simplematerial import load_shader_source
+from utils.helpers import _mat4_look_at, _mat4_ortho
+from utils.vec3 import Vec3
+from utils.simplematerial import load_shader_source
 
 class ShadowMap:
     """Single 2D depth map for the scene's directional light. Sampled in the

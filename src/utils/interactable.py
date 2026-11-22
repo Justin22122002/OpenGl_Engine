@@ -2,8 +2,8 @@ from typing import Callable, Optional
 
 from typing_extensions import override
 
-from src.utils.component import Component
-from src.utils.gameObject import GameObject
+from utils.component import Component
+from utils.gameObject import GameObject
 
 
 class Interactable(Component):

@@ -1,8 +1,8 @@
 import math
 from dataclasses import dataclass, field
 
-from src.utils.vec3 import Vec3
-from src.utils.color import Color
+from utils.vec3 import Vec3
+from utils.color import Color
 
 
 @dataclass

@@ -1,7 +1,7 @@
 import math
 import numpy as np
 
-from src.utils.vec3 import Vec3
+from utils.vec3 import Vec3
 
 
 def screen_to_ray(

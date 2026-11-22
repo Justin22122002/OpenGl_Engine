@@ -5,8 +5,8 @@ import pygame
 from numpy.typing import NDArray
 from typing_extensions import override
 
-from src.utils.vec3 import Vec3
-from src.utils.helpers import _mat4_perspective, _mat4_look_at
+from utils.vec3 import Vec3
+from utils.helpers import _mat4_perspective, _mat4_look_at
 import numpy as np
 
 class Camera(metaclass=ABCMeta):
